@@ -23,7 +23,7 @@ def game(x):
     global live
     x = int(x)
     while live != 0:
-        # x = int(x)
+        x = int(x)
         if x == number:
             print("Tebrikler, doğru tahmin ettin!")
             break
